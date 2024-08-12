@@ -77,3 +77,14 @@ Therefore, the **Power BI data model** is effectively the **Data Warehouse** in 
 Power Query is a data connectivity and transformation tool that is part of Microsoft Excel and other Microsoft products. It allows users to import, transform, and manipulate data from various sources to create clean, structured datasets for analysis and reporting. Power Query simplifies the process of cleaning, shaping, and merging data from different sources, making it a powerful tool for data preparation and analysis in business intelligence and data analytics workflows.
 
 ![Screenshot 2024-08-12 224331](https://github.com/user-attachments/assets/effe90f3-6d9f-4b08-8db7-957d9e182ee0)
+
+
+### Summary: Understanding OLAP vs. OLTP and Their Roles in Databases and Data Warehouses
+
+OLAP (Online Analytical Processing) and OLTP (Online Transaction Processing) are two fundamental data processing systems that serve different purposes within an organization.
+
+- **OLTP** is typically associated with **databases**. These systems are designed for managing day-to-day transactional data, focusing on fast, real-time operations. OLTP databases are optimized for handling a large number of short, simple transactions, such as those found in banking systems, e-commerce platforms, and CRM applications.
+
+- **OLAP** is typically associated with **data warehouses**. These systems are used for complex analysis and reporting on historical data, focusing on read-heavy operations. OLAP data warehouses are optimized for performing complex queries, aggregations, and multidimensional analysis, making them essential for business intelligence and analytics applications.
+
+In summary, while OLTP systems and databases are geared toward efficient transaction processing, OLAP systems and data warehouses are designed for in-depth data analysis and decision-making.
